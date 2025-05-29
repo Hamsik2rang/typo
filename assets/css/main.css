@@ -85,19 +85,35 @@ input {
 }
 
 /* Code blocks */
-
 .profile-image {
   text-align: center;
   margin: 2rem 0;
 }
 
 .profile-image img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #ddd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40%; /* 데스크톱 기본 크기 */
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+/* 호버 효과 (선택사항) */
+.profile-image img:hover {
+  transform: scale(1.05);
+}
+
+/* 태블릿 */
+@media (max-width: 768px) {
+  .profile-image img {
+      width: 50%;
+  }
+}
+
+/* 모바일 */
+@media (max-width: 480px) {
+  .profile-image img {
+      width: 60%;
+      border-radius: 15px;
+  }
 }
 
 .copy-code-button {
