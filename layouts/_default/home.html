@@ -6,6 +6,14 @@
 
 {{ if or .Site.Params.homeIntroTitle .Site.Params.homeIntroContent }}
 <div class="intro">
+    
+    {{/* Profile Image Section */}}
+    {{ with .Site.Params.profileImage }}
+    <div class="profile-image">
+        <img src="{{ . | relURL }}" alt="Profile Image" />
+    </div>
+    {{ end }}
+    
     {{ with .Site.Params.homeIntroTitle }}
     <h1>{{ . }}</h1>
     {{ end }}
