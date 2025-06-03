@@ -96,10 +96,6 @@ input {
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-/* 호버 효과 (선택사항) */
-.profile-image img:hover {
-  transform: scale(1.05);
-}
 
 /* 태블릿 */
 @media (max-width: 768px) {
