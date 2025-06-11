@@ -45,3 +45,19 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'NotoSansKorean';
+    src: url('/fonts/NotoSansKorean/NotoSansKR-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monaspace';
+    src: url('/fonts/NotoSansKorean/NotoSansKR-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

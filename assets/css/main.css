@@ -85,10 +85,6 @@ input {
 }
 
 /* Code blocks */
-.profile-image {
-  text-align: center;
-  margin: 2rem 0;
-}
 
 .profile-image img {
   width: 40%; /* 데스크톱 기본 크기 */

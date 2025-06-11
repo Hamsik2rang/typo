@@ -6,14 +6,13 @@
 
 {{ if or .Site.Params.homeIntroTitle .Site.Params.homeIntroContent }}
 <div class="intro">
-    
     {{/* Profile Image Section */}}
-    {{ with .Site.Params.profileImage }}
+    <!-- {{ with .Site.Params.profileImage }}
     <div class="profile-image">
         <img src="{{ . | relURL }}" alt="Profile Image" />
     </div>
-    {{ end }}
-    
+    {{ end }} -->
+
     {{ with .Site.Params.homeIntroTitle }}
     <h1>{{ . }}</h1>
     {{ end }}
@@ -23,11 +22,10 @@
     {{ end }}
 </div>
 {{ end }}
-
 {{/* Social Icons */}}
 
 {{ with site.Params.social }}
-<div class="social-icons">
+<!-- <div class="social-icons">
     {{- range . }}
     <a href="{{ trim .url " " | safeURL }}" target="_blank"
         rel="noopener noreferrer me"
@@ -35,7 +33,7 @@
         {{ partial "svg.html" . }}
     </a>
     {{- end }}
-</div>
+</div> -->
 {{ end }}
 
 {{/* Collection Section */}}
