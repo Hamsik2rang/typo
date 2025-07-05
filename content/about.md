@@ -16,4 +16,4 @@ layout: "about"
 
 ## Contact
 - GitHub: [github.com/hamsik2rang](https://github.com/hamsik2rang)
-- Email: your-email@example.com
+- Email: lvhi7121@gmail.com
