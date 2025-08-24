@@ -1,3 +1,11 @@
+:root {
+    --main-width: 968px; /* overrides default of 780px */
+}
+
+body {
+    font-family: 'NanumGothic', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 .about-page {
     max-width: 800px;
     margin: 0 auto;
