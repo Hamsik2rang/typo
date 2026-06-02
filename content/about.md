@@ -5,7 +5,7 @@ layout: "about"
 ---
 
 ## Career
-* [2023.02 ~ ] Com2us, Game Engine Programmer
+* [2023.02 ~ 2026.05] Com2us, Game Engine Programmer
 
 ## Skills
 - Real-time Rendering
